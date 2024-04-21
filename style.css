@@ -1,0 +1,26 @@
+body{
+    background: red;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media(min-width: 500px) {
+    .container {
+        width: 70%;
+    }
+}
+
+.container{
+    width: 70%;
+    padding: 25px;
+    box-shadow: 10px 10px 5px black;
+    border-radius: 6%;
+    margin: 10px auto;
+    background-color: white;
+
+}
